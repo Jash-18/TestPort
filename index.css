@@ -1,0 +1,93 @@
+.leftSide {
+  font-size: 1.5rem;
+}
+.rightSide ul a {
+  text-decoration: none;
+  color: #a8abc7;
+  transition: all 0.5s;
+}
+.rightSide ul a:hover {
+  color: #eeeeee;
+}
+.navSides {
+  text-align: center;
+  padding: 10px 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1d267d;
+  align-items: center;
+  height: 45px;
+  border: 0px solid #727cd6;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  margin: 0 10px;
+}
+.rightSide {
+  position: absolute;
+  right: 40px;
+}
+.leftSide {
+  position: absolute;
+  left: 40px;
+}
+.text-color {
+  color: rgb(48 184 176);
+  font-size: 3rem;
+}
+
+section {
+  display: flex;
+  height: 35rem;
+  font-size: 3rem;
+}
+hr {
+  border: 0.7px solid rgb(147, 165, 236);
+  width: 85%;
+  margin: auto;
+}
+section .leftSection {
+  width: 50%;
+  height: max-content;
+  position: relative;
+  left: 100px;
+  top: 25%;
+}
+section .rightSection {
+  height: max-content;
+}
+section .rightSection {
+  height: max-content;
+  position: relative;
+  left: 10%;
+  top: 20%;
+}
+section .rightSection img {
+  text-align: center;
+}
+#call{
+    margin-left:8px ;
+}
+.btn {
+  padding: 10px 15px;
+  background-color: #0c134f;
+  color: white;
+  border: 2px solid rgb(177, 177, 177);
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 7px;
+  transition: all 0.7s;
+  font-family: "Montserrat";
+}
+.btn:hover {
+  background-color: white;
+  border: 2px solid rgb(0, 234, 255);
+  color: rgb(8, 9, 33);
+  transform: scale(1.09);
+}
